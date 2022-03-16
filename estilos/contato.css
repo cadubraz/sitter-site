@@ -1,0 +1,143 @@
+@charset "UTF-8"
+@font-face {
+    font-family:karla;
+    src: url(../fonte/Karla-Regular.ttf);
+}
+:root{
+    --cor1:#19203C;
+    --cor2:#C72C56;
+    --cor3:#DD8099;
+    --cor4:#4e546b;
+    --fonte:trueno;
+}
+
+body{
+    margin: 0px;
+    background-image: url(../Imagens/patinhas.png);
+    background-repeat: repeat;
+}
+
+#cabecalho .menu{
+    font-family: var(--fonte)
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 90%;
+    margin-top: 2em;
+}
+
+.menu a{
+    padding: 2em;
+    text-decoration: none;
+    color: var(--cor1);
+    transition: .3s;
+}
+
+.menu a:hover{
+    color: var(--cor2);
+    padding: 3em;
+    
+}
+
+.menu .contato{
+    color: var(--cor2);
+}
+
+main{
+    font-family: var(--fonte);
+    font-size: 2em;
+}
+
+
+main .nometutor{
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    margin: auto;
+    width: 20em;
+   
+}
+
+main .nometutor label{
+    text-align: center;
+    padding: 1em;
+    color: var(--cor1);
+}
+
+
+ main .nometutor input{
+    height: 3em;
+    padding: 1em;
+    border-radius: .5em;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.144);
+     
+ }
+
+ #botao{
+    margin:1em;
+     
+ }
+
+ button{
+     display: block;
+     margin: auto;
+     padding: 2em;
+     width: 35em;
+     background-color: var(--cor1);
+     color: white;
+     border-radius:.5em;
+     cursor: pointer;
+     
+ }
+
+
+
+
+
+
+
+footer{
+    background-color: var(--cor1);
+    font-family: var(--fonte);
+    margin: auto;
+    
+
+}
+
+
+#conteudofooter{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 80%;    
+}
+
+footer #conteudofooter #servicosfooter{
+    margin-top: 4em;
+    color: white;
+}
+
+footer #conteudofooter #contato{
+    color: white;
+    margin-bottom: 3em;
+    margin-top: 4em;
+}
+
+footer #conteudofooter #sociais{
+    margin-top: 3em;
+    padding:1em ;
+}
+
+footer #conteudofooter #sociais #sociaisimg{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h1{
+    color: white;
+}
