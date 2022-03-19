@@ -142,3 +142,52 @@ footer #conteudofooter #sociais #sociaisimg{
 footer h1{
     color: white;
 }
+
+@media (max-width:1068px){
+
+    .menu a{
+        padding: .2em;
+    }
+
+    .menu a:hover{
+        padding: 0%;
+    }
+
+    #cabecalho #container .menu{
+        font-size: 80%;
+            
+    }
+
+    #conteudo #pagina1 .texto{
+        font-size: 50%;
+        margin: auto;
+        max-width: 90%;
+    }
+
+
+    #conteudo .botao{
+        font-size: 80%;
+        margin: auto;
+        margin-bottom: 2em;
+        
+    }
+
+
+    #conteudofooter h1{
+        font-size: 1em;
+    }
+
+    #conteudofooter p{
+        font-size: .6em;
+    }
+
+    #conteudofooter #sociaisimg img{
+       width: 1em;
+       padding: .1em
+    }
+
+    @media (max-width:668px){
+        #conteudo  img{
+            display: none;
+        }
+    }

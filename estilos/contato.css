@@ -141,3 +141,42 @@ footer #conteudofooter #sociais #sociaisimg{
 footer h1{
     color: white;
 }
+
+@media (max-width:968px){
+    .menu a{
+        padding: .2em;
+    }
+
+    .menu a:hover{
+        padding: 0%;
+    }
+
+    #cabecalho #container .menu{
+        font-size: 80%;
+            
+    }
+   
+
+    form{
+        font-size: 80%;
+        align-items: left;
+            
+    }
+    
+    input{
+        width: 26em;
+        
+    }
+
+    main .nometutor label{
+        text-align: left;
+    }
+        
+    textarea{
+        width: 30em;
+    }
+
+    form #botao button{
+        font-size: 38%;
+        
+    }
