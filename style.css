@@ -275,6 +275,189 @@ footer h1{
     color: white;
 }
 
+@media (max-width:1080px){
+
+    #conteudo #pagina1{
+        margin: auto;
+        max-width: 69%;
+    }
+
+    #conteudo #pagina1 .texto{
+        font-size: 60%;
+    }
+
+    #conteudo #pagina1 .botao{
+        font-size: 90%;
+    }
+
+    #conteudo2 #pagina2 h1{
+        font-size: 2em;
+    }
+
+    #conteudo2 #pagina2 .imagens{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    #conteudo3 #pagina3 .titulop{
+        font-size: 3em;
+    }
+
+    #conteudo3 #pagina3 .imagem{
+        margin: auto;
+    }
+
+    #conteudo3 #pagina3 .imagem .texto{
+        font-size: 90%;
+        margin: auto;
+    }
+
+    #conteudo4 #pagina4 #titulo{
+        font-size: 2.5em;
+    }
+
+    #conteudo4 #pagina4 .bloco1{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0%;
+    }
+
+    #conteudo4 #pagina4{
+        padding-top: 0em;
+        margin-top: 0em;
+    }
+
+    #conteudo4 #pagina4 .bloco1 .imagem img{
+        padding-top: 7em;
+    }
+
+    #conteudo4 #pagina4 .bloco2{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0%;
+    }
+
+    #conteudo4 #pagina4 .bloco2 .imagem img{
+        padding-top: 7em;
+    }
+
+}
+
+@media (max-width:968px){
+
+    .menu a{
+        padding: .2em;
+    }
+
+    .menu a:hover{
+        padding: 0%;
+    }
+
+    #cabecalho #container .menu{
+        font-size: 80%;
+            
+    }
+
+    #conteudo #pagina1{
+        margin: auto;
+        max-width: 90%;
+    }
+
+    #conteudo #pagina1 .texto{
+        font-size: 50%;
+    }
+
+    #conteudo .imagem{
+        
+        display: none;
+        flex-direction: column;
+    }
+
+    #conteudo #pagina1 .botao{
+        font-size: 90%;
+    }
+
+    #conteudo2 #pagina2 h1{
+        font-size: 2em;
+    }
+
+    #conteudo2 #pagina2 .imagens{
+        display: flex;
+        flex-direction: column;
+        margin: left;
+
+    }
+
+    #conteudo3 #pagina3 .imagens{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #conteudo3 #pagina3 .titulop{
+        font-size: 3em;
+    }
+
+    #conteudo3 #pagina3 .imagem{
+        margin: auto;
+    }
+
+    #conteudo3 #pagina3 .imagem .texto{
+        font-size: 90%;
+        margin: auto;
+    }
+
+    #conteudo4 #pagina4 #titulo{
+        font-size: 1.5em;
+    }
+
+    #conteudo4 #pagina4 .bloco1{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0%;
+    }
+
+    #conteudo4 #pagina4{
+        padding-top: 0em;
+        margin-top: 0em;
+    }
+
+    #conteudo4 #pagina4 .bloco1 .imagem img{
+        padding-top: 7em;
+    }
+
+    #conteudo4 #pagina4 .bloco2{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0%;
+    }
+
+    #conteudo4 #pagina4 .bloco2 .imagem img{
+        padding-top: 7em;
+    }
+
+    #conteudo5 #titulo{
+        font-size: 3em;
+    }
+
+    #conteudo5 a p{
+        font-size: 1em
+    }
+
+    #conteudofooter h1{
+        font-size: 1em;
+    }
+
+    #conteudofooter p{
+        font-size: .6em;
+    }
+
+    #conteudofooter #sociaisimg img{
+       width: 1em;
+       padding: .1em
+    }
+
+}
 
 
 
